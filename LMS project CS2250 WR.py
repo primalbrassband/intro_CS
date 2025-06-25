@@ -141,5 +141,8 @@ patron1.return_book(book1)
 print("\033[31;47mWelcome back to the public library self-checkout, let's get\
  you started.\033[0m")
 library.list_books()
+time.sleep(4)
+patron1.borrowed_books_add(book2)
+patron1.bottowed_books_add(book3)
 print(f"\033[31;47mThank you for using the public library self-checkout. Enjoy\
  reading {book2} & {book3}!\n\n\033[0m")
