@@ -12,3 +12,5 @@ the fundamental concept of searching through small data sets.
 introCS_guessing_game_WR.py is the final project from intro CS during my spring semester of 2025, I modified and enhanced the basic project as I came up with new ideas. 
 The basic project was simply to guess from a static set of numbers, I decided it would be a better game if it gave hints after getting some questions wrong. I also liked the idea of random number generating -
 as an option. Aditionally when you successfully identify the number it will print how many incorrect guesses the player made. 
+
+chapter4_math.py is an early project from intro CS during my spring semester 2025. This displays a robust slope line formula. I tend to focus a lot of my programs on graphing and modeling methods.
