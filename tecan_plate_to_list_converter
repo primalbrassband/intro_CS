@@ -1,0 +1,20 @@
+# converting output of 96-well plate format via plate reader software into a column list
+# for copy-paste into excel spreadsheets
+
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jul 14 17:18:43 2025
+
+@author: willt
+"""
+
+with open(r"C:\example\example.txt", 'r') as f: 
+    lines = f.readlines() # read all lines in file and returns list of strings, each string is a line from the file.
+
+plate = [line.strip().split() for line in lines] # breaks the strings of rows apart by whitespace. results in a 2d list.
+
+flat = [value for row in plate for value in row] # nested list comprehension, shift from 2d list into 1d column of all plate contents
+
+with open('exampleOutput.txt', 'w') as f:
+    for value in flat:
+        f.write(value + '\n') # writes a new text document for output of table
