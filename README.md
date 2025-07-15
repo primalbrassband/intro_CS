@@ -16,3 +16,5 @@ as an option. Aditionally when you successfully identify the number it will prin
 chapter4_math.py is an early project from intro CS during my spring semester 2025. This displays a robust slope line formula. I tend to focus a lot of my programs on graphing and modeling methods.
 
 tecan_plate_reader program is a simple quality of life code I wrote for work, there is further room for automation but given the destination file is a sharepoint exel document I kept this script bare bones so I don't overwrite something online. 
+
+stoplight project is project 2 in CS2250 summer course at UMSL. I added an off button option but beyond that it's a simple interactive graphic. 
