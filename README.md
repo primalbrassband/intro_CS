@@ -21,3 +21,4 @@ stoplight project is project 2 in CS2250 summer course at UMSL. I added an off b
 
 mismatch_fixer loads a text file, converts the strings into iterable format, iterates through characters. when it points to a "(", "{", or "[" symbol, the program begins looking for that symbols partner value. If a partner value exists but is from a different key, the mismatched partner is swapped with the intended value from the dictionary of symbols being iterated over.
 
+DNA extraction yield graph is a code to show an example of taking tables from excel, converting to .csv, manipulating the data to ensure reliable output, and then plotting the data. This was for an experiment at work.
