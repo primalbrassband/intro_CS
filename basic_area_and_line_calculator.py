@@ -5,10 +5,10 @@ print(format(57.4, ">9.2f"))
 
 # geometry of a pentagon
 
-#r = float(input("Radius "))
-#s = 2*r*math.sin(math.pi/5)
-#area = (5*(s ** 2)) / (4 * math.tan(math.pi/5))
-#print(area)
+r = float(input("Radius "))
+s = 2*r*math.sin(math.pi/5)
+area = (5*(s ** 2)) / (4 * math.tan(math.pi/5))
+print(area)
 
 #robust slope line formula
 y1 = float(input("Enter first y point: "))
